@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
         if (isGooglePlayServicesAvailable()) {
 
-            System.out.println("isGooglePlayServicesAvailable() = " + isGooglePlayServicesAvailable());
+            System.out.println("isGooglePlayServicesAvailable()1 = " + isGooglePlayServicesAvailable());
             initGoogleApiClient();
         }
 
